@@ -1,0 +1,9 @@
+.content {
+    a {
+        @apply .text-blue .no-underline;
+
+        &:hover {
+            @apply .text-blue-darker;
+        }
+    }
+}
