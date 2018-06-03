@@ -22,8 +22,6 @@ mix.js('source/_assets/js/main.js', 'js')
         ]
     })
     .purgeCss({
-        globs: [
-            path.join(__dirname, "source/**/*.blade.php"),
-        ],
+        folders: ['source'],
     })
     .version();
