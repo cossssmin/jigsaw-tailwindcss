@@ -7,6 +7,6 @@
         <link rel="stylesheet" href="{{ mix('/css/main.css') }}">
     </head>
     <body class="antialiased font-sans">
-        @yield('body')
+        @yield('content')
     </body>
 </html>
