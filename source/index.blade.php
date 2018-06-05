@@ -1,6 +1,6 @@
 @extends('_layouts.master')
 
-@section('body')
+@section('content')
 
 <div class="content h-screen flex flex-col items-center justify-center bg-grey-lighter">
     <h1 class="font-light">Jigsaw + Tailwind CSS</h1>
