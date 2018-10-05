@@ -13,14 +13,15 @@ mix.webpackConfig({
   ]
 });
 
-mix.js('source/_assets/js/main.js', 'js')
-  .sass('source/_assets/sass/main.scss', 'css/main.css')
-  .options({
+mix.options({
     processCssUrls: false,
     postCss: [
+      require('postcss-import'),
       tailwind('tailwind.js'),
     ]
   })
+  .postCss('source/_assets/css/main.css', 'css/main.css')
+  .js('source/_assets/js/main.js', 'js')
   .purgeCss({
     folders: ['source'],
   })
