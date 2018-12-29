@@ -1,14 +1,15 @@
 # Jigsaw + Tailwind CSS Starter Kit
 
-A starter kit for using the [Jigsaw](http://jigsaw.tighten.co/) static site generator with [Tailwind CSS](https://tailwindcss.com/).
+A starter kit for using the [Jigsaw static site generator](http://jigsaw.tighten.co/) with [Tailwind CSS](https://tailwindcss.com/).
 
 ## Features
 
 - Webpack + Laravel Mix build system
 - `tailwind.js` config file in root, customize as needed
-- Uses `mix()` to fetch the CSS asset path and apply versioning
-- Removes unused Tailwind CSS classes with [laravel-mix-purgecss](https://github.com/spatie/laravel-mix-purgecss) (production build only)
-- Basic example of `@apply`ing Tailwind CSS classes. Useful when you write in Markdown and have no control over markup.
+- Removes unused Tailwind CSS classes with [laravel-mix-purgecss](https://github.com/spatie/laravel-mix-purgecss)
+- PostCSS instead of Sass - fewer dependencies, faster Tailwind builds
+- Basic example of `@apply`ing Tailwind CSS classes - useful for styling Markdown content
+- Includes a `blade.php` file where you can add your own Blade extensions ([documentation](https://jigsaw.tighten.co/docs/content-blade/#extending-blade-with-custom-directives))
 
 ## Requirements
 
@@ -20,31 +21,35 @@ A starter kit for using the [Jigsaw](http://jigsaw.tighten.co/) static site gene
 
 1. Clone this repo
 
+    ```sh
+    git clone https://github.com/hellocosmin/jigsaw-tailwindcss.git
+    ```
+
 2. Navigate to the folder
 
     ```sh
     cd jigsaw-tailwindcss
     ```
 
-3. Install JS dependencies
-    ```sh
-    npm install
-    ```
-    
-4. Install PHP dependencies
+3. Install PHP dependencies
     ```sh
     composer install
     ```
-    
+
+4. Install JS dependencies
+    ```sh
+    npm install
+    ```
+
 5. Run the dev script to build the site
 
     ```sh
     npm run dev
     ```
-    
-To use Browsersync, run the watch script instead: `npm run watch`
 
-**Note**: as mentioned, unused CSS will be removed *only* when you build for production: `npm run production`
+To use BrowserSync, run the watch script instead: `npm run watch`
+
+By default, unused CSS will be purged *only* when running `npm run production` - however, this is [configurable](https://github.com/spatie/laravel-mix-purgecss#usage).
 
 ## What is Jigsaw?
 
@@ -52,5 +57,4 @@ To use Browsersync, run the watch script instead: `npm run watch`
 
 ## What is Tailwind CSS?
 
-> A Utility-First CSS Framework for Rapid UI Development - [Tailwind CSS](https://tailwindcss.com/)
-
+> A utility-first CSS framework for rapidly building custom user interfaces - [Tailwind CSS](https://tailwindcss.com/)
