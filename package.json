@@ -8,17 +8,16 @@
     "watch": "npm run local -- --watch"
   },
   "devDependencies": {
-    "browser-sync": "^2.23.6",
+    "browser-sync": "^2.26.3",
     "browser-sync-webpack-plugin": "^2.0.1",
     "cross-env": "^3.2.3",
+    "extra-watch-webpack-plugin": "^1.0.3",
     "hasbin": "^1.2.3",
-    "laravel-mix": "^2.1.0",
-    "laravel-mix-purgecss": "^2.2.0",
+    "laravel-mix": "^4.0.0",
+    "laravel-mix-purgecss": "^4.0.0",
     "node-cmd": "^3.0.0",
-    "on-build-webpack": "^0.1.0",
     "postcss-import": "^12.0.0",
-    "tailwindcss": "^0.6.1",
-    "webpack-watch": "^0.2.0",
+    "tailwindcss": "^0.7.3",
     "yargs": "^4.6.0"
   }
 }
