@@ -4,7 +4,7 @@ let build = require('./tasks/build.js');
 require('laravel-mix-purgecss');
 
 mix.disableSuccessNotifications();
-mix.setPublicPath('source/assets/build');
+mix.setPublicPath('source/assets/');
 mix.webpackConfig({
   plugins: [
     build.jigsaw,
