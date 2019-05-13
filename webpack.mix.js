@@ -17,7 +17,7 @@ mix.options({
     processCssUrls: false,
     postCss: [
       require('postcss-import'),
-      tailwind('tailwind.js'),
+      tailwind(),
     ]
   })
   .postCss('source/_assets/css/main.css', 'css/main.css')
