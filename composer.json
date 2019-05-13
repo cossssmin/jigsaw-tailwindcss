@@ -1,5 +1,14 @@
 {
+  "name": "cossssmin/jigsaw-tailwindcss",
+  "description": "Tailwind CSS starter template for Jigsaw static site generator by Tighten",
+  "keywords": ["starter", "template", "jigsaw", "static", "site", "generator", "tailwindcss"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Cosmin Popovici"
+    }
+  ],
   "require": {
-    "tightenco/jigsaw": "^1.3"
+    "tightenco/jigsaw": "^1.3.0"
   }
 }

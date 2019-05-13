@@ -1,7 +1,11 @@
-.content a {
-    @apply text-blue no-underline;
+.main {
+  @apply h-screen flex flex-col items-center justify-center bg-gray-300;
 }
 
-.content a:hover {
-    @apply text-blue-darker;
+.main a {
+  @apply text-blue-500 no-underline;
+}
+
+.main a:hover {
+  @apply text-blue-700;
 }
