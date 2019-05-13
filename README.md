@@ -5,7 +5,7 @@ A starter kit for using the [Jigsaw static site generator](http://jigsaw.tighten
 ## Features
 
 - Webpack + Laravel Mix build system
-- `tailwind.js` config file in root, customize as needed
+- `tailwind.config.js` config file in root, customize as needed
 - Removes unused Tailwind CSS classes with [laravel-mix-purgecss](https://github.com/spatie/laravel-mix-purgecss)
 - PostCSS instead of Sass - fewer dependencies, faster Tailwind builds
 - Basic example of `@apply`ing Tailwind CSS classes - useful for styling Markdown content
@@ -22,7 +22,7 @@ A starter kit for using the [Jigsaw static site generator](http://jigsaw.tighten
 1. Clone this repo
 
     ```sh
-    git clone https://github.com/hellocosmin/jigsaw-tailwindcss.git
+    git clone https://github.com/cossssmin/jigsaw-tailwindcss.git
     ```
 
 2. Navigate to the folder
