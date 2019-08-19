@@ -19,6 +19,6 @@
     "postcss-import": "^12.0.1",
     "tailwindcss": "^1.0.0",
     "vue-template-compiler": "^2.6.10",
-    "yargs": "^13.2.4"
+    "yargs": "^13.3.0"
   }
 }
