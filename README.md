@@ -2,6 +2,8 @@
 
 A starter kit for using the [Jigsaw static site generator](http://jigsaw.tighten.co/) with [Tailwind CSS](https://tailwindcss.com/).
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/573deda7-3b57-4e11-aab4-e2e87f9cddce/deploy-status)](https://app.netlify.com/sites/jigsaw-tailwindcss/deploys)
+
 ## Features
 
 - Webpack + Laravel Mix build system
