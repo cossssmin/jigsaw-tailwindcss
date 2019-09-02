@@ -10,7 +10,7 @@
   "devDependencies": {
     "browser-sync": "^2.26.7",
     "browser-sync-webpack-plugin": "^2.2.2",
-    "cross-env": "^5.2.0",
+    "cross-env": "^5.2.1",
     "extra-watch-webpack-plugin": "^1.0.3",
     "hasbin": "^1.2.3",
     "laravel-mix": "^4.1.2",
